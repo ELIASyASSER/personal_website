@@ -19,10 +19,18 @@ import { contextRefs } from "../context/context"
 
 const About = () => {
   const {aboutRef} = useContext(contextRefs)
+  
+  
+// Greetings! I'm Elias Yasser, a passionate MERN stack developer dedicated to crafting responsive, user-focused web applications. With a strong foundation in HTML, CSS, JavaScript, and advanced styling using Tailwind CSS and Sass, I bring designs to life with precision and elegance. My expertise extends to React for dynamic UIs and Express.js for robust backends, supported by MongoDB and PostgreSQL for efficient data handling. Proficient in Git and GitHub for version control and collaborative development, I also leverage Pug to streamline templating for clean, maintainable code. Additionally, I have a solid understanding of C++ basics, enhancing my problem-solving approach and logic. I continuously sharpen my skills to stay ahead in the ever-evolving tech landscape. Let's build something amazing together! 🚀
   return (
     <section className="about__page" ref={aboutRef}>
       <h2>About <span className="red-c">Me</span></h2>
-      <p>Greetings! I'm <span className="red-c">ELias Yasser</span>, a dedicated frontend developer driven by my love for crafting fully responsive and user-centric websites. My expertise lies in frontend technologies, including <span className="red-c"> HTML, CSS</span>, and <span className="red-c">JavaScript</span>. Currently, I'm deeply engaged with <span className="red-c">React, Next.js</span> , and <span className="red-c">TypeScript</span>, pushing the boundaries of what can be achieved. I maintain a perpetual commitment to honing my skills and keeping pace with the ever-evolving landscape of industry trends.</p>
+      <p>Greetings! I'm <span className="red-c">ELias Yasser</span>, a passionate of full-stack development dedicated to crafting responsive, user-focused web .With Good Foundation Using <span className="red-c"> HTML, CSS</span>, and <span className="red-c">JavaScript</span>. and advanced styling using <span className="red-c">Tailwind CSS</span> and <span className="red-c">Sass</span>, I bring designs to life with precision and elegance
+      I  Use <span className="red-c">React</span> Framework for dynamic UIs and <span className="red-c">Express.js</span> for  backend, supported by <span className="red-c">MongoDB</span> and  <span className="red-c">PostgreSQL</span>  for efficient data handling.I use <span className="red-c">Git and GitHub</span>  for version control and collaborative development, and 
+      to enhance my problem-solving approach and logic i solve problems with <span className="red-c"> C++ </span> Now I prepare <span className="red-c">Data structures & Algorithms</span> to solve more 
+      advanced and complicated questions
+      finally I continuously sharpen my skills to stay ahead in the ever-evolving tech landscape. Let's build something amazing together!
+      </p>
       <div className="skills">
         <h3>Techs</h3>
 

@@ -1,0 +1,26 @@
+@use "../helpers/mixins.scss" as helpers;
+@use "../_global_rules/vars" as vars;
+.notFound__page{
+    @include helpers.centering;
+    flex-direction: column;
+    background-color: black;
+    height: 90vh;
+    h1{
+        font-size: 44px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    a{
+        color: white;
+        background-color: vars.$blue_color;
+        font-size: 40px;
+        padding: vars.$lg_padding;
+        transition: 0.7s;
+        border-radius: 10px;
+        &:hover{
+            background-color: blue;
+        }
+    }
+}

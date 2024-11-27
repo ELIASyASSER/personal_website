@@ -14,11 +14,6 @@ const router = createBrowserRouter([
                 element:<Home/>
             },
             {
-                path:"/projects",
-                element:<Projects/>
-            },
-            
-            {
                 path:"*",
                 element:<NotFoundPage/>
             }
