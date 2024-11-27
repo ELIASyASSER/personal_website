@@ -1,0 +1,146 @@
+@use "../_global_rules/vars" as vars;
+@use "../helpers/mixins.scss" as helpers;
+
+header{
+    @include helpers.between;
+    background-color: vars.$secondary_color;
+    padding: vars.$main_padding;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    h1{
+        color: white;
+        font-weight: 500;
+        letter-spacing: 4px;
+        margin-left: 2rem;
+        font-size: 22px;
+        -webkit-text-stroke: 0.4px blue;
+        span{
+            color: aqua;
+        }
+    
+    }
+    nav{
+        margin-right: 3rem;
+    .burger{
+
+        color: white;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        @media #{vars.$min-mobile} {
+            display: none;
+        }
+        
+    }
+    .links{
+        @include helpers.between;
+        
+        .close{
+            text-align: right;
+            display: block;
+            width: 100%;
+            height: 70px;
+            position: relative;
+            padding: vars.$sec_padding;
+            cursor:text;
+            @media #{vars.$min_mobile} {
+                display: none;
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                left: 0;
+                bottom: 0;
+                background-color: white;
+                height: 2px;
+            }
+            .times{
+                height: 40px;
+                width: 40px;
+                color: rgb(255, 40, 40);
+                cursor: pointer;
+            }
+        }
+
+        &.sidebar{
+        position: absolute;
+        background-color: rgba($color: #000000, $alpha: 0.8);
+        flex-direction: column;
+
+
+        width: 70%;
+        overflow: hidden;
+        top: 0;
+
+        right: 10px;
+        transition: 0.7s;
+        border-radius: 10px;
+
+        @media #{vars.$max-mobile} {
+                display: flex;
+            }
+            
+        li{
+            @include helpers.centering;
+            width: 100%;
+            height: 90px;
+            transition: 0.5s;
+            cursor: pointer;
+            position: relative;
+            &:hover{
+                background-color: rgb(91, 152, 237);
+            }
+            
+            &:not(:last-of-type)::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+                background-color: white;
+                
+            }
+
+            a{
+                
+                padding: 0;
+                padding: vars.$lg_padding;
+                font-size: 26px;
+                display: block;
+                border-bottom: none !important;
+            }
+        }
+
+        }
+
+        @media #{vars.$max_mobile} {
+            display: none;
+        }
+
+
+        li a{
+            color: white;
+            margin-left: 1rem;
+            transition: 0.5s;
+            padding: vars.$lg_padding;
+            border-bottom: 3px solid transparent;
+
+            &:hover{
+                border-bottom: 3px solid white;
+            }
+            @media #{vars.$max_mobile} {
+                margin-left: 0;
+
+            }
+        } 
+
+        }
+    }
+}
+
+
+

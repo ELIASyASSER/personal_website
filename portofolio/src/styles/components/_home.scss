@@ -1,0 +1,114 @@
+@use "../_global_rules/vars" as vars; 
+@use "../helpers/mixins.scss" as helpers;
+@use "../components/about";
+
+section.left{
+    background-color: vars.$blue_color;
+    width: 800px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    @media #{vars.$max_medium} {
+        width: 100%;
+        position: relative;
+        top: 0;
+
+    }
+    .info{
+        width: 70%;
+        margin: 0 30%;
+        padding: 20px;
+        @media #{vars.$max_medium} {
+            width: 90%;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: normal;
+            margin-bottom: 0;
+            @media #{vars.$max-mobile} {
+                font-size: 3.4rem;
+            }
+        }
+        p:first-of-type{
+            margin: 1rem 0 ;
+            font-size: 2rem;
+            @media #{vars.$max-mobile} {
+            margin: 0.4rem 0 ;
+            font-size: 1.4rem;
+            }
+        }
+        p:last-of-type{
+            font-size: 1.5rem;
+            margin-bottom: 4rem;
+            @media #{vars.$max-mobile} {
+                font-size: 1.1rem;
+                margin-bottom: 2rem;
+            }
+        }
+        a{
+
+            display: inline-block;
+            border: 2px solid white;
+            border-radius: 35px;
+            padding: 15px 40px;
+            color: white;
+            font-size: 24px;
+            transition: 0.7s;
+            margin-bottom: 4rem;
+            &:hover{
+                background-color: rgb(240, 255, 255,0.3);
+            }
+            .icon{
+                margin-right: 10px;
+            }
+        }
+    }
+    .socials{
+        @include helpers.centering;
+        padding: vars.$lg_padding;
+        overflow: hidden;
+        @media #{vars.$max-mobile} {
+            flex-direction: column;
+        }
+        div{
+            display: flex;
+        }   
+        
+        a{
+            @include helpers.centering;
+            color: white;
+            transition: transform 0.3s ease, color 0.3s ease;
+            margin-left: 1.8rem;
+            border-radius: 50%;
+            transition: 0.6s;
+            cursor: pointer;
+            padding: 10px;
+            
+            @media #{vars.$max-mobile} {
+                margin-left: .8rem;
+            }
+            &:hover {
+                background-color: black;
+            }
+            svg{
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+section.right{
+    width: calc(100% - 800px);
+    margin-left: 800px;
+    min-height: 100vh;
+    @media #{vars.$max_medium} {
+        width: 100%;
+        margin-left: 0;
+    }
+}

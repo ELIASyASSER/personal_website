@@ -1,0 +1,93 @@
+@use "../_global_rules/vars" as vars;
+section.projects{
+    min-height: 100vh;
+    overflow: hidden;
+    color: white;
+    padding: vars.$main_padding;
+    h2{
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        margin: 2rem  0 4rem 2rem;
+
+    }
+    .cards{
+        max-width: 680px;
+        @media (min-width:1500px) {
+            margin-left: 100px;
+            
+        }
+        @media (min-width:800px )and (max-width:1400px)  {
+            margin-left: auto;;
+            margin-right: auto;;
+            
+        }
+        .card{
+
+            padding: vars.$lg_padding;
+            border-radius: 20px;
+            border: 3px solid white;
+            margin-bottom: 30px;
+
+            .title{
+                color: white;
+               display: inline-block;
+               h3{
+                    font-size: 30px;
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                svg{
+                        cursor: pointer;
+                        transition: 0.6s;
+                        &:hover{
+                            color: vars.$red_color;
+                        }
+                    }
+                }
+
+            }
+            
+            .img_cont{
+
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+
+                
+                img{
+                    transition: 0.6s;
+                    &:hover{
+                        transform: scale(1.2);
+                        opacity: 0.6;
+                    }
+                    
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 16px;
+                }
+                a{
+                    position: absolute;
+                    bottom: 20px;
+                    right: 20px;
+                    color: black;
+                    border: 3px solid blue;
+                    border-radius: 10px;
+                    transition: 0.6s;
+                    .git{
+                        font-size: 50px;
+                    }
+                    &:hover{
+                        border: 3px solid transparent;
+                        
+                    }
+                }
+            }
+            .txt{
+                line-height: 2;
+                font-size: 18px;
+                width: 88%;
+            }
+        }
+    }
+}

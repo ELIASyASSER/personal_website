@@ -1,0 +1,71 @@
+@use "./vars" as vars;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*,::before,::after{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+*{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Styles for the entire scrollbar */
+::-webkit-scrollbar {
+    width: 20px;  /* Width of vertical scrollbar */
+    height: 10px; /* Height of horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;  /* Light gray background */
+    border-radius: 10px;   /* Rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;  /* Dark gray handle */
+    border-radius: 10px;  /* Rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;  /* Darker gray on hover */
+  }
+  
+
+
+
+ul{
+    list-style: none;
+}
+.whole__app{
+}
+
+.main__content{
+    background-color: #111;
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    @media #{vars.$max_medium} {
+        flex-direction: column;
+        
+    }
+}
+.progress__bar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: 99;
+    background: vars.$red_color;
+    transform-origin: 0%;
+}

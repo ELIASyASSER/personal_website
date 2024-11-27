@@ -1,0 +1,47 @@
+@use "../_global_rules/vars" as vars; 
+@use "../helpers/mixins.scss" as helpers;
+// this file will be included inside the _home.scss file as about is part of right section in home page
+.about__page{
+    color: white;
+    padding: vars.$lg_padding;
+    
+    span{
+        color: vars.$red_color;
+    }
+
+    h2{
+        margin-bottom: 0;
+        margin-left: 15px;
+        font-size: 3rem;
+        font-weight: normal;
+        
+    }
+    p{
+        line-height: 2;
+        font-size: 20px;
+        padding: 10px;
+    }
+    div.skills{
+        @include helpers.centering;
+        flex-direction: column;
+        text-align: center;
+        h3{
+            margin-bottom: 0;
+            font-size: 2.7rem;
+            font-weight: normal;
+            letter-spacing: 4px;
+        }
+        
+        .icons__skills {
+            img{
+                width: 60px;
+                height: 60px;
+                margin:40px 20px 0 0;
+                cursor: text;
+                border-radius: 50%;
+                
+            }
+        }
+    }
+    
+}
