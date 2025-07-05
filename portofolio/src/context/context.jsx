@@ -6,7 +6,6 @@ export const ContextProvider = ({children})=>{
     const aboutRef = useRef(null)
     const projectsRef = useRef(null)
 
-
     const value ={
         aboutRef,
         projectsRef

@@ -13,7 +13,7 @@ const Card = ({title,description,img,gitLink,globLink}) => {
     ref={ref}
     initial={{ opacity: 0, y: 100 }}
     animate={isInView ? { opacity: 1, y: 0 } : {}}
-    transition={{ duration: 0.9 }}>
+    transition={{ duration: 1 }}>
           <div className="img_cont">
             <img src={img} alt="photo" />
             <Link to={gitLink} target='_blanck'>

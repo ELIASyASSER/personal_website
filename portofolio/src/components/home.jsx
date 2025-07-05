@@ -16,33 +16,33 @@ const Home = () => {
                   <h1>Elias Yasser</h1>
                   <p >Full Stack Developer</p>
                   <p>React.js & Node.js</p>
-                  <Link>
+                  <a href={"https://drive.google.com/file/d/1qO4zs1UzFf3hShfXBFs7Io27bYZUpvm_/view"} target="_blank" >
                   <FaFilePdf className="icon" />
                     Resume
-                  </Link>
+                  </a>
         </div>
             <div className="socials">
               <div>
-                  <Link to={"https://github.com/ELIASyASSER?tab=repositories"} target="_blanck">
+                  <a href={"https://github.com/ELIASyASSER?tab=repositories"} target="_blank">
                       <FaGithub/>
-                  </Link>
-                  <Link to={"https://www.linkedin.com/in/elias-yasser-8a63a1216/"} target="_blanck">
+                  </a>
+                  <a href={"https://www.linkedin.com/in/elias-yasser/"} target="_blank">
                       <FaLinkedin/>
-                  </Link>
-                  <Link>
+                  </a>
+                  <a href={"tel:+201156048566"} target="_blank">
                       <FaPhone/>
-                  </Link>
+                  </a>
               </div>
               <div>
-                    <Link>
+                    <a to={"https://wa.me/+201156048566"} href="_blank">
                         <FaWhatsapp/>
-                    </Link>
-                    <Link  target="_blanck" to={"https://discord.gg/KUtu4jsf"}>
+                    </a>
+                    <a  target="_blank" href={"https://discord.gg/KUtu4jsf"}>
                         <FaDiscord/>
-                    </Link>
-                    <Link to={"mailto:yasralyas576@gmail.com"} target="_blanck">
+                    </a>
+                    <a href={"mailto:yasralyas576@gmail.com"} target="_blank">
                         <MdEmail/>
-                    </Link>
+                    </a>
               </div>
             </div>
         

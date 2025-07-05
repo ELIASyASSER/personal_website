@@ -13,6 +13,7 @@ section.left{
     color: white;
     @media #{vars.$max_medium} {
         width: 100%;
+        height: 70vh;
         position: relative;
         top: 0;
 
@@ -34,16 +35,21 @@ section.left{
             }
         }
         p:first-of-type{
+            
             margin: 1rem 0 ;
             font-size: 2rem;
+            
             @media #{vars.$max-mobile} {
-            margin: 0.4rem 0 ;
-            font-size: 1.4rem;
+            
+                margin: 0.4rem 0 ;
+                font-size: 1.4rem;
+            
             }
         }
         p:last-of-type{
             font-size: 1.5rem;
             margin-bottom: 4rem;
+            
             @media #{vars.$max-mobile} {
                 font-size: 1.1rem;
                 margin-bottom: 2rem;
@@ -104,6 +110,7 @@ section.left{
 }
 
 section.right{
+
     width: calc(100% - 800px);
     margin-left: 800px;
     min-height: 100vh;

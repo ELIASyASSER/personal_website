@@ -1,23 +1,91 @@
 [
-    {"id":1,"title":"Book Store", "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!","gitLink":"https://github.com/ELIASyASSER/book-store","globLink":"https://www.google.com","img":"/project/bookStore.png"},
+  
+  
+{
+    "id": 1,
+    "title": "Book Store",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+    "gitLink": "https://github.com/ELIASyASSER/book-store",
 
+    "globLink": "https://book-store-frontendui.vercel.app/",
 
+    "img": "/project/bookStore.png"
+  },
 
-    {"id":2,"title":"Digital Chat", "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!","gitLink":"https://github.com/ELIASyASSER/chatApp","globLink":"https://www.google.com","img":"/project/CHATAPP.png"},
+    {
+        "id": 2,
+        "title": "Documentary (Google Docs Clone)",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+        "gitLink": "https://github.com/ELIASyASSER/documentary-rich-editor",
 
+        "globLink": "https://documentary-reach-editor.vercel.app/",
 
+        "img": "/project/DOCS.png"
+    },
+  
+  {
+        "id": 3,
+        "title": "Eym Estate",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+        "gitLink": "https://github.com/ELIASyASSER/eymRealEstate",
+        "globLink": "https://eym-real-estate-ui.vercel.app/",
 
-    {"id":3,"title":"bloggy ", "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!","gitLink":"https://github.com/ELIASyASSER/BlogApp","globLink":"https://www.google.com","img":"/project/bloggy.png"},
+        "img": "/project/eymEstate.png"
+    },
+      {
+        "id": 4,
+        "title": "Green Cart",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+        "gitLink": "https://github.com/ELIASyASSER/greenCart",
 
+        "globLink": "https://www.google.com",
 
+        "img": "/project/bookStore.dff"
+    },
+    
+  {
+    "id": 5,
+    "title": "Digital Chat",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+    "gitLink": "https://github.com/ELIASyASSER/chatApp",
+    "globLink": "https://www.google.com",
+    "img": "/project/CHATAPP.png"
+  },
 
-    {"id":4,"title":"Inventory App", "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!","gitLink":"https://github.com/ELIASyASSER/INVENTORY-APP","globLink":"https://www.google.com","img":"/project/inventory.png"},
+  {
+    "id": 6,
+    "title": "bloggy ",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+    "gitLink": "https://github.com/ELIASyASSER/blogApp-monorepo",
+    "globLink": "https://www.google.com",
+    "img": "/project/bloggy.png"
+  },
 
+  {
+    "id": 7,
+    "title": "Inventory App",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+    "gitLink": "https://github.com/ELIASyASSER/INVENTORY-APP",
+    "globLink": "https://www.google.com",
+    "img": "/project/inventory.png"
+  },
 
-    {"id":5,"title":"Products Management", "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!","gitLink":"https://github.com/ELIASyASSER/management-system","globLink":"https://eliasyasser.github.io/management-system/","img":"/project/manger.png"},
+  {
+    "id": 8,
+    "title": "Products Management",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+    "gitLink": "https://github.com/ELIASyASSER/management-system",
+    "globLink": "https://eliasyasser.github.io/management-system/",
+    "img": "/project/manger.png"
+  },
 
-
-    {"id":6,"title":"Market Wave", "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!","gitLink":"https://github.com/ELIASyASSER/marketWave","globLink":"https://eliasyasser.github.io/marketWave/","img":"/project/marketWave.png"}
-
-
+  {
+    "id": 9,
+    "title": "Market Wave",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rerum esse ad excepturi unde ducimus odit tempora illo. Libero, commodi delectus ullam rerum deserunt dolorem pariatur laudantium illo impedit dolores magni sed fugit, beatae optio eius totam aperiam soluta quos unde. Fuga in quidem, eveniet, odit delectus officiis pariatur neque iusto provident soluta porro earum repudiandae possimus doloremque repellendus eos obcaecati voluptas esse harum quam. Neque natus tempore fugit optio fuga veritatis ducimus, eius eos. Vero eos neque quae, dicta suscipit commodi, molestiae explicabo tenetur perspiciatis, rem aut. Asperiores, aperiam. Quia iusto similique corrupti fugit aliquid qui laboriosam molestiae adipisci!",
+    "gitLink": "https://github.com/ELIASyASSER/marketWave",
+    "globLink": "https://eliasyasser.github.io/marketWave/",
+    "img": "/project/marketWave.png"
+  }
+  
 ]
